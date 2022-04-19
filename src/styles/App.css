@@ -1,17 +1,19 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: #D2000B;
   text-align: center;
   color: white;
 }
 
 p {
   margin:0;
+  font-size: 12px;
 }
+
 
 .container {
   height: 100%;
-  background-color: #181818;
+  background-color: #D2000B;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,19 +32,20 @@ header{
 
 .title {
   margin: 0;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
 }
 
 .subtitle {
-  font-size: 25px;
+  font-size: 10px;
   color: white;
 }
 
 .left{
   text-align: left;
   margin-left: 10%;
+  margin-right: 10%;
 }
 
 .logo{
@@ -58,7 +61,11 @@ header{
   padding: 12px 20px;
   height: 99%;
   margin-right: 10%;
-  margin-top: 10px;
+  margin-top: 7px;
+  
+  
+  justify-content: center;
+  align-items: center;
 }
 
 .content-container {
@@ -75,36 +82,44 @@ header{
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
+
+
 
 .connect-wallet-container {
   display: flex;
   flex-direction: column;
   margin: auto;
   max-width: 550px;
+  padding: 10%;
 }
 
 .connect-wallet-container img {
   padding-bottom: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .connect-wallet-button {
   background-image: linear-gradient(
     to right,
     #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+    #D2000B 0%,
+    #D2000B 21%,
+    #000000 52%,
+    #f6f3f3 78%,
+    #D2000B 100%
   );
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #ffffff, #000000, #D2000B);
   font-size: 18px;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
@@ -144,7 +159,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .twitter-logo {
@@ -153,8 +168,8 @@ header{
 }
 
 .footer-text {
-  color: white;
-  font-size: 16px;
+  color: #000000;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -168,12 +183,12 @@ header{
 
 input{
   border: 0;
-  border-radius: 12px;
+  border-radius: 19px;
   background-color: black;
   color: white;
   letter-spacing: 1px;
-  font-size: 26px;
-  width: 400px;
+  font-size: 20px;
+  width: 250px;
   margin-bottom: 10px;
   padding: 10px 20px;
   text-align: center;

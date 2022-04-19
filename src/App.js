@@ -241,7 +241,7 @@ useEffect(() => {
   // Create a function to render if wallet is not connected yet
   const renderNotConnectedContainer = () => (
     <div className="connect-wallet-container">
-      <img src="https://media.giphy.com/media/8xomIW1DRelmo/giphy.gif" alt="Nepal gif" />
+      <img src="https://media.giphy.com/media/3GSwoHHrl2w51k15pP/giphy.gif" alt="Nepal gif" />
       <button onClick={connectWallet} className="cta-button connect-wallet-button">
         Connect Wallet
       </button>
@@ -348,8 +348,8 @@ const editRecord = (name) => {
 				<div className="header-container">
 					<header>
             <div className="left">
-              <p className="title">🇳🇵Nepal Name Service (web3.np)</p>
-              <p className="subtitle">Web3 Nepal Official Domain Name on Polygon Mainnet.</p>
+              <p className="title"> Web3 Nepal Foundation</p>
+              <p className="subtitle"> Nepal Name Service🇳🇵(web3.np) on Polygon Mainnet.</p>
             </div>
             <div className="right">
       <img alt="Network logo" className="logo" src={ network.includes("Polygon") ? polygonLogo : ethLogo} />
