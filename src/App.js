@@ -12,7 +12,7 @@ const TWITTER_HANDLE = 'Web3Nepal';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const tld = '.np';
-const CONTRACT_ADDRESS = '0x453786e0686Ed1Befa7bA8F04Ff2293571Cb49f8';
+const CONTRACT_ADDRESS = '0x1B4589F9145233BA67521b919825894e67f31D12';
 
 const App = () => {
   // Create a stateful variable to store the network next to all the others
